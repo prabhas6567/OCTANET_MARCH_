@@ -12,44 +12,20 @@ min-height: 100vh;
 h3{
     color:aqua;
 }
-.card1{
-    position: absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,50%);
-    transition: transform 2s;
-    cursor:pointer;
-    transform: skew(45deg);
-    
+.card{
+   display:flex; 
+   margin:auto;
+   align-items: center;
+flex-direction: row;
+background-color: transparent;
+color: white;
+border: 1px solid white;    
 }
-.card2{
-    position: absolute;
-    top:30%;
-    left:10%;
-    transition: transform 2s;
-    transform: translate(-50%,50%);
-    transform: skew(45deg);
-}
-.card3{
-    position: absolute;
-    top:30%;
-    left:80%;
-    transition: transform 2s;
-    transform: translate(-50%,50%);
-    transform: skew(45deg);
-}
+
 .card:hover{
     background-color: rgb(98, 108, 117);
-    transform: skew(0deg);
+    transform: scale(1.05);
 }
-.end{
 
-    border:2px solid rgb(253, 250, 250);
-    color:white;
-    position: absolute;
-    bottom:0px;
-    left:45%;
-    font-size: 18px;
 
-}
 
